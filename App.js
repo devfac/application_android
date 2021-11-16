@@ -1,6 +1,8 @@
 import React from "react";
 import Home from './screens/Home'
 import Setting from './screens/Settings'
+import Profile from './screens/Profile'
+import Note from './screens/Note'
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -34,6 +36,25 @@ export default function()
           tabBarShowLabel: false,
           tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="message-text" color={color} size={size} />
+        ) }}
+       /> 
+
+        <Tab.Screen 
+        name="Profile" 
+        component={Profile}
+        options={{
+          tabBarShowLabel: false,
+          tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="file-document" color={color} size={size} />
+        ) }}
+       /> 
+        <Tab.Screen 
+        name="Note" 
+        component={Note}
+        options={{
+          tabBarShowLabel: false,
+          tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="menu" color={color} size={size} />
         ) }}
        /> 
       </Tab.Navigator>
