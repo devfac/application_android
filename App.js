@@ -9,8 +9,7 @@ const Tab = createBottomTabNavigator(
 );
 import {
   Text,
-  View,
-  Button
+  View
 } from 'react-native'
 
 export default function()
