@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "MyReactNative4",
+    "slug": "MyReactNative4",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.gasy2gasy.MyReactNative4"
+    },
+    "ios": {
+      "bundleIdentifier": "com.gasy2gasy.MyReactNative4"
+    }
+  },
+  "name": "MyReactNative4"
+}
