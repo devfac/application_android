@@ -17,16 +17,16 @@ const checkSwitch=(param)=>{
 
 const bgColors = {
   home: '#fff',
-  folder: '#fff',
+  message: '#fff',
   note: '#fff',
   menu: '#fff',
 };
 
 const textColors = {
-  home: '#606060',
-  folder: '#606060',
-  note: '#606060',
-  menu: '#606060',
+  home: '#6E0B14',
+  message: '#6E0B14',
+  note: '#6E0B14',
+  menu: '#6E0B14',
 };
 
 const Container = styled.TouchableWithoutFeedback``;
@@ -74,7 +74,7 @@ function Tab({label, accessibilityState, onPress}) {
         transition={transition}>
         <Icon 
             name={icon}
-            size={20}
+            size={25}
             color="#606060"
             />
         {focused && (

@@ -24,12 +24,12 @@ export default function()
           tabBarShowLabel:false,
           tabBarStyle:{
             position:"absolute",
-            bottom: 20,
+            bottom: 10,
             left: 10,
             right:10,
             elevation:0,
             borderRadius:15,
-            height:35,
+            height:40,
             backgroundColor: '#6E0B14'
           }
         }}
@@ -47,7 +47,7 @@ export default function()
           component={Profile}
           options={{
             tabBarButton: (props) => (
-              <TabComponent label="folder" {...props} />
+              <TabComponent label="message" {...props} />
             ),
           }}
         />
