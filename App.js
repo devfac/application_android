@@ -24,11 +24,11 @@ export default function()
           tabBarShowLabel:false,
           tabBarStyle:{
             position:"absolute",
-            bottom: 10,
-            left: 10,
-            right:10,
+            bottom: 0,
+            left: 0,
+            right:0,
             elevation:0,
-            borderRadius:15,
+            borderRadius:0,
             height:40,
             backgroundColor: '#6E0B14'
           }
